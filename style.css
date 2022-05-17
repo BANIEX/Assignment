@@ -95,5 +95,15 @@ i{
     }
     .right{
         width: 100%;
+
+    }
+    h3{
+        font-size: smaller;
+    }
+  }
+
+  @media only screen and (max-width: 930px) {
+    input {
+      width: 80%;
     }
   }
