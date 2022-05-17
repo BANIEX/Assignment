@@ -5,6 +5,7 @@
 }
 .first_div{
 
+
 }
 .left{
     /* background: burlywood; */
@@ -20,7 +21,42 @@
 .right{
     float: right;
     width: 50%;
-    background: gray;
+    background: rgb(109,129,229);
     border: 2px solid black;
+    margin: 0px auto;
+    text-align: center;
+    height: 100vh;
    
+}
+.container{
+    margin: 50px auto;
+    width: 60%;
+}
+
+label, input{
+    display: block;
+    margin: 02px auto;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+form{
+    margin-top: 30px;
+}
+h3{
+    margin-top: 30px;
+    text-align: right;
+}
+button{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: aquamarine;
 }
